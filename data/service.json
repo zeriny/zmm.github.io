@@ -1,0 +1,57 @@
+[
+  {
+    "year": 2027,
+    "role": "Reviewer",
+    "venue": "USENIX Security"
+  },
+  {
+    "year": 2026,
+    "role": "Best Reviewer Award",
+    "venue": "ESORICS"
+  },
+  {
+    "year": 2026,
+    "role": "TPC member",
+    "venue": "WWW"
+  },
+  {
+    "year": 2025,
+    "role": "TPC member",
+    "venue": "USENIX Security AE"
+  },
+  {
+    "year": 2023,
+    "role": "TPC member",
+    "venue": "EAI SecureComm"
+  },
+  {
+    "year": 2022,
+    "role": "External Reviewer",
+    "venue": "NDSS"
+  },
+  {
+    "year": 2022,
+    "role": "External Reviewer",
+    "venue": "EthiCS"
+  },
+  {
+    "year": 2021,
+    "role": "External Reviewer",
+    "venue": "NDSS"
+  },
+  {
+    "year": 2021,
+    "role": "External Reviewer",
+    "venue": "ACSAC"
+  },
+  {
+    "year": 2020,
+    "role": "External Reviewer",
+    "venue": "ESORICS"
+  },
+  {
+    "year": 2019,
+    "role": "External Reviewer",
+    "venue": "CCS"
+  }
+]

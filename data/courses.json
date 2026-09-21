@@ -1,0 +1,27 @@
+[
+  {
+    "group": "Technical training sessions",
+    "items": [
+      {
+        "title": "Cybersecurity Fundamentals",
+        "note": "Training for Malaysia Cyber 100 Initiative",
+        "terms": ["2023"]
+      },
+      {
+        "title": "Public Key Infrastructure Fundamentals",
+        "note": "DataCon Student Summer Camp",
+        "terms": ["2024"]
+      }
+    ]
+  },
+  {
+    "group": "Courses at Tsinghua University",
+    "items": [
+      {
+        "role": "Teaching assistant",
+        "title": "Computer Network Security Technologies",
+        "terms": ["2020 Spring"]
+      }
+    ]
+  }
+]

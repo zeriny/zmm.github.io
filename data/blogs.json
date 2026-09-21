@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Why I Started Writing Placeholder Posts",
+    "date": "Sep 2026",
+    "tag": "Meta",
+    "excerpt": "A short placeholder post about the goals of this blog. Replace it with your own first post.",
+    "url": "posts/post-1.html"
+  },
+  {
+    "title": "Notes on Measuring Things at Scale",
+    "date": "Jun 2026",
+    "tag": "Research",
+    "excerpt": "Placeholder excerpt describing lessons learned from a large-scale measurement study.",
+    "url": "posts/post-2.html"
+  },
+  {
+    "title": "Building Small Tools That People Actually Use",
+    "date": "Jan 2026",
+    "tag": "Engineering",
+    "excerpt": "Placeholder excerpt on the gap between research prototypes and deployable tools.",
+    "url": "posts/post-3.html"
+  }
+]

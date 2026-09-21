@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blogs</title>
+  <meta name="description" content="Blog posts.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+
+<body class="page-blogs">
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">
+        <a href="index.html" id="brand-name">Your Name</a>
+      </div>
+      <nav class="topnav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="index.html#publications">Publications</a>
+        <a href="blogs.html" class="is-current" aria-current="page">Blogs</a>
+        <a href="index.html#honors">Honors &amp; Awards</a>
+        <a href="index.html#patents">Patents</a>
+        <a href="index.html#teaching">Teaching</a>
+        <a href="index.html#service">Service</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="blogs-shell">
+    <section class="wrap blogs-hero" aria-labelledby="blogs-title">
+      <div class="blogs-hero__copy">
+        <p class="blogs-eyebrow">Blogs</p>
+        <h1 id="blogs-title">Notes on research, systems, and everything in between.</h1>
+        <p class="blogs-lead">
+          Occasional write-ups on research in progress, measurements, tools, and lessons learned.
+          Replace this headline and the posts below with your own.
+        </p>
+      </div>
+    </section>
+
+    <section class="wrap blogs-section" aria-labelledby="blogs-list-title">
+      <div class="blogs-section__intro">
+        <h2 id="blogs-list-title" class="section-title">Recent Posts</h2>
+        <p>
+          Each post is a plain HTML file under posts/ — copy one, edit it, and list it in data/blogs.json.
+        </p>
+      </div>
+
+      <ul id="blogs-list" class="blogs-list"></ul>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "date": "09/18/2026",
+    "text": "Our work on reverse proxy weaknesses has been accepted to NDSS 2027. Congratulations, Tianhao!"
+  },
+  {
+    "date": "03/01/2026",
+    "text": "Our work on internationalized PKI was invited for presentation at IETF 125 in Shenzhen."
+  },
+  {
+    "date":"02/25/2026",
+    "text": "Our work <a href='https://blackhat.com/asia-26/briefings/schedule/#rebirthday-attack-reviving-dns-cache-poisoning-with-the-birthday-paradox-50562'>RebirthDay</a> was selected by the Black Hat Asia 2026 Review Board as one of the <a href='https://blackhat.com/html/blog/2026-02-25.html'>Top 5 Must-See Research Presentations</a>"
+  },
+  {
+    "date": "02/01/2026",
+    "text": "Our paper about code signing abuse was presented at NDSS 2026."
+  },
+  {
+    "date": "08/01/2025",
+    "text": "Our paper about domain registries' operation issues was presented at USENIX Security 2025."
+  },
+  {
+    "date": "08/01/2025",
+    "text": "Our work about cross-origin web attacks was invited for presentation at <a href='https://i.blackhat.com/BH-USA-25/Presentations/USA-25-Chen-Cross-Origin-Web-Attacks-via-HTTP2-Server-Push-and-Signed-HTTP-Exchange-Thursday.pdf'>Black Hat USA 2025</a>."
+  }
+]

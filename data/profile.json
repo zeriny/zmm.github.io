@@ -1,0 +1,21 @@
+{
+  "name": "Mingming Zhang",
+  "title": "Associate Professor",
+  "affiliation": "Zhongguancun Laboratory",
+  "email": "zhangmm717[AT]gmail[DOT]com",
+  "bio": "I am an Associate Researcher at ZGC Lab, Beijing, and an adjunct Ph.D. supervisor at Beijing Universityof Posts and Telecommunications (BUPT). I received my Ph.D. with honors from the Network and InformationSecurity Lab (NISL) at Tsinghua University in 2023, advised by Prof. Haixin Duan.My research focuses on measuring and enhancing the security of Internet infrastructure, uncovering significant vulnerabilities in core protocols, and understanding emerging cyberspace security threats in AI infrastructure and applications.",  "recruiting": "I am recruiting highly motivated Ph.D. students for Fall 2027. Please feel free to contact me if you are interested in Internet infrastructure or protocol security.",
+  "links": [
+    {
+      "label": "Email",
+      "url": "mailto:zhangmm717[AT]gmail[DOT]com"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=ILGMPv8AAAAJ&hl=en"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/zeriny"
+    }
+  ]
+}

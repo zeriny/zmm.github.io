@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notes on Measuring Things at Scale</title>
+  <meta name="description" content="Placeholder post: lessons learned from a large-scale measurement study.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <script defer src="../app.js"></script>
+</head>
+
+<body class="page-post">
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">
+        <a href="../index.html" id="brand-name">Your Name</a>
+      </div>
+      <nav class="topnav" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#publications">Publications</a>
+        <a href="../blogs.html" class="is-current" aria-current="page">Blogs</a>
+        <a href="../index.html#honors">Honors &amp; Awards</a>
+        <a href="../index.html#patents">Patents</a>
+        <a href="../index.html#teaching">Teaching</a>
+        <a href="../index.html#service">Service</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="post-shell">
+    <article class="wrap post">
+      <header class="post-header">
+        <p class="post-meta">Jun 2026 · Research</p>
+        <h1 id="post-title">Notes on Measuring Things at Scale</h1>
+      </header>
+
+      <div class="post-body">
+        <p>Placeholder excerpt: every large measurement study starts the same
+          way — with a script that should take an afternoon and ends up running
+          for three months. This post is a stand-in for your own write-up.</p>
+
+        <h2>Lesson one: everything retries</h2>
+        <p>Networks are unreliable, so measurement code must assume every
+          request can fail, hang, or return something unexpected:</p>
+        <ul>
+          <li>Wrap every probe with a timeout</li>
+          <li>Log raw responses, not just parsed results</li>
+          <li>Make every run resumable</li>
+        </ul>
+
+        <h2>Lesson two: look at the data by hand</h2>
+        <p>The single most useful habit: open the raw output and read a few
+          hundred lines before writing any aggregation code. Every surprising
+          bug in our pipeline was visible in the raw data first.</p>
+      </div>
+    </article>
+  </main>
+</body>
+
+</html>
